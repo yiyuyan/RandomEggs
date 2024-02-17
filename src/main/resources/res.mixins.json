@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.RES.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "res.refmap.json",
+  "mixins": [
+    "EggEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

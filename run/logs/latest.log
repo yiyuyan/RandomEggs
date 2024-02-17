@@ -1,0 +1,1021 @@
+[172月2024 17:33:45.741] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, E:\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 39.1.0, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407, --mixin.config, res.mixins.json]
+[172月2024 17:33:45.746] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.0+9.1.0+main.6690ee51 starting: java version 17.0.2 by Oracle Corporation
+[172月2024 17:33:45.918] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/E:/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2327!/ Service=ModLauncher Env=CLIENT
+[172月2024 17:33:48.498] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, E:\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[172月2024 17:33:48.602] [main/WARN] [mixin/]: Reference map 'res.refmap.json' for res.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:33:56] [Render thread/WARN]: Assets URL 'union:/E:/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.1.0_mapped_official_1.18.1/forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/assets/.mcassetsroot' uses unexpected schema
+[17:33:56] [Render thread/WARN]: Assets URL 'union:/E:/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.1.0_mapped_official_1.18.1/forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/data/.mcassetsroot' uses unexpected schema
+[172月2024 17:33:56.482] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:33:56] [Render thread/INFO]: Setting user: Dev
+[17:33:56] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[17:33:58] [modloading-worker-0/INFO]: RandomEggs loaded.
+[17:33:58] [modloading-worker-0/INFO]: Forge mod loading, version 39.1.0, for MC 1.18.1 with MCP 20211210.034407
+[17:33:58] [modloading-worker-0/INFO]: MinecraftForge v39.1.0 Initialized
+[172月2024 17:34:00.689] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[17:34:00] [Render thread/INFO]: Enabled Gametest Namespaces: [res]
+[17:34:01] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[172月2024 17:34:02.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[172月2024 17:34:05.288] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 39.1.0 Target: null
+[17:34:22] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek High Definition Audio)
+[17:34:22] [Render thread/INFO]: Sound engine started
+[17:34:22] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[17:34:23] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[17:34:23] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:34:23] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:34:23] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:34:23] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:34:23] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:34:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:34:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:34:26] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:34:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[17:34:32] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[17:34:34] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:34:34] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:34:34] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:34:34] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:34:34] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:34:34] [Render thread/INFO]: Reloading ResourceManager: Default, main, 
+[17:34:38] [Render thread/INFO]: Loaded 7 recipes
+[17:34:40] [Render thread/INFO]: Loaded 1141 advancements
+[172月2024 17:34:41.258] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:34:41] [Server thread/INFO]: Starting integrated minecraft server version 1.18.1
+[17:34:41] [Server thread/INFO]: Generating keypair
+[17:34:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:34:42] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:42] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:42] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:45] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:45] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:45] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:45] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:45] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:45] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:46] [Render thread/INFO]: 准备生成区域中：0%
+[17:34:46] [Render thread/INFO]: 准备生成区域中：23%
+[17:34:47] [Render thread/INFO]: 准备生成区域中：41%
+[17:34:47] [Render thread/INFO]: 准备生成区域中：55%
+[17:34:48] [Render thread/INFO]: 准备生成区域中：69%
+[17:34:48] [Render thread/INFO]: 准备生成区域中：87%
+[17:34:48] [Render thread/INFO]: Time elapsed: 7217 ms
+[17:34:48] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[17:34:48] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:34:48] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[17:34:50] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[17:34:50] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@651b17b4
+[17:34:50] [Server thread/INFO]: Dev[local:E:07096d02] logged in with entity id 3 at (431.295315556384, 79.12050221173276, 1095.365000738095)
+[17:34:50] [Server thread/INFO]: Dev加入了游戏
+[17:34:51] [Render thread/INFO]: Loaded 478 advancements
+[17:34:55] [Server thread/INFO]: Random number: 0
+[17:34:57] [Server thread/INFO]: [Dev: 天气已设为晴天]
+[17:34:57] [Render thread/INFO]: [CHAT] 天气已设为晴天
+[17:34:58] [Server thread/INFO]: Random number: 1
+[17:34:58] [Server thread/INFO]: Random number: 5
+[17:34:59] [Server thread/INFO]: Random number: 4
+[17:34:59] [Server thread/INFO]: Random number: 5
+[17:34:59] [Server thread/INFO]: Random number: 6
+[17:34:59] [Server thread/INFO]: Random number2: 39
+[17:34:59] [Server thread/INFO]: Random number: 7
+[17:34:59] [Server thread/INFO]: Random number: 1
+[17:35:00] [Server thread/INFO]: Random number: 2
+[17:35:00] [Server thread/WARN]: UUID of added entity already exists: LargeFireball['火球'/532, l='ServerLevel[New World]', x=435.79, y=67.00, z=1094.34]
+[17:35:00] [Server thread/INFO]: Random number: 5
+[17:35:00] [Server thread/INFO]: Random number: 5
+[17:35:00] [Server thread/INFO]: Random number: 6
+[17:35:00] [Server thread/INFO]: Random number2: 1
+[17:35:00] [Server thread/INFO]: Random number: 5
+[17:35:01] [Server thread/INFO]: Random number: 2
+[17:35:02] [Server thread/INFO]: Random number: 1
+[17:35:07] [Server thread/INFO]: Random number: 6
+[17:35:07] [Server thread/INFO]: Random number2: 13
+[17:35:07] [Server thread/INFO]: Random number: 4
+[17:35:07] [Server thread/INFO]: Random number: 2
+[17:35:07] [Server thread/INFO]: Random number: 6
+[17:35:07] [Server thread/INFO]: Random number2: 1
+[17:35:08] [Server thread/INFO]: Random number: 1
+[17:35:08] [Server thread/INFO]: Random number: 6
+[17:35:08] [Server thread/INFO]: Random number2: 22
+[17:35:08] [Server thread/INFO]: Random number: 2
+[17:35:08] [Server thread/INFO]: Random number: 4
+[17:35:10] [Server thread/INFO]: Random number: 2
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:10] [Server thread/WARN]: UUID of added entity already exists: Painting['画'/959, l='ServerLevel[New World]', x=450.50, y=48.50, z=1069.03]
+[17:35:19] [Server thread/INFO]: Random number: 1
+[17:35:19] [Server thread/INFO]: Random number: 6
+[17:35:19] [Server thread/INFO]: Random number2: 36
+[17:35:19] [Server thread/INFO]: Random number: 4
+[17:35:31] [Server thread/INFO]: Random number: 0
+[17:35:31] [Server thread/INFO]: Random number: 1
+[17:35:32] [Server thread/INFO]: Random number: 2
+[17:35:32] [Server thread/WARN]: UUID of added entity already exists: ZombieVillager['僵尸村民'/1476, l='ServerLevel[New World]', x=434.64, y=63.00, z=1041.34]
+[17:35:32] [Server thread/WARN]: UUID of added entity already exists: ZombieVillager['僵尸村民'/1476, l='ServerLevel[New World]', x=434.64, y=63.00, z=1041.34]
+[17:35:32] [Server thread/WARN]: UUID of added entity already exists: ZombieVillager['僵尸村民'/1476, l='ServerLevel[New World]', x=434.64, y=63.00, z=1041.34]
+[17:35:32] [Server thread/INFO]: Random number: 0
+[17:35:34] [Server thread/INFO]: Random number: 7
+[17:35:34] [Server thread/INFO]: Random number: 4
+[17:35:34] [Server thread/INFO]: Random number: 3
+[17:35:34] [Server thread/INFO]: Random number: 7
+[17:35:34] [Server thread/INFO]: Random number: 0
+[17:35:34] [Server thread/INFO]: Random number: 6
+[17:35:34] [Server thread/INFO]: Random number2: 28
+[17:35:34] [Server thread/INFO]: Random number: 7
+[17:35:34] [Server thread/INFO]: Random number: 0
+[17:35:34] [Server thread/INFO]: Random number: 4
+[17:35:34] [Server thread/INFO]: Random number: 4
+[17:35:34] [Server thread/INFO]: Random number: 0
+[17:35:34] [Server thread/INFO]: Random number: 3
+[17:35:34] [Server thread/INFO]: Random number: 7
+[17:35:34] [Server thread/INFO]: Random number: 3
+[17:35:34] [Server thread/INFO]: Random number: 4
+[17:35:35] [Server thread/INFO]: Random number: 1
+[17:35:35] [Server thread/INFO]: Random number: 0
+[17:35:35] [Server thread/INFO]: Random number: 0
+[17:35:35] [Server thread/INFO]: Random number: 2
+[17:35:36] [Server thread/INFO]: Random number: 5
+[17:35:37] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.puffer_fish.ambient
+[17:35:38] [Server thread/INFO]: Random number: 2
+[17:35:39] [Server thread/INFO]: Random number: 2
+[17:35:39] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/2368, l='ServerLevel[New World]', x=393.21, y=63.00, z=992.11]
+[17:35:39] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/2368, l='ServerLevel[New World]', x=393.21, y=63.00, z=992.11]
+[17:35:39] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/2368, l='ServerLevel[New World]', x=393.21, y=63.00, z=992.11]
+[17:35:39] [Server thread/INFO]: Random number: 7
+[17:35:39] [Server thread/INFO]: Random number: 5
+[17:35:39] [Server thread/INFO]: Random number: 0
+[17:35:39] [Server thread/INFO]: Random number: 7
+[17:35:42] [Server thread/INFO]: Random number: 7
+[17:35:42] [Server thread/INFO]: Random number: 0
+[17:35:42] [Server thread/INFO]: Random number: 0
+[17:35:42] [Server thread/INFO]: Random number: 2
+[17:35:43] [Server thread/INFO]: Random number: 3
+[17:35:44] [Server thread/INFO]: Random number: 1
+[17:35:45] [Server thread/INFO]: Random number: 6
+[17:35:45] [Server thread/INFO]: Random number2: 22
+[17:35:45] [Server thread/INFO]: Random number: 5
+[17:35:46] [Server thread/INFO]: Random number: 7
+[17:35:48] [Server thread/INFO]: Random number: 1
+[17:35:48] [Server thread/INFO]: Random number: 6
+[17:35:48] [Server thread/INFO]: Random number2: 39
+[17:35:48] [Server thread/INFO]: Random number: 5
+[17:35:48] [Server thread/INFO]: Random number: 6
+[17:35:48] [Server thread/INFO]: Random number2: 35
+[17:35:49] [Server thread/INFO]: Random number: 3
+[17:35:49] [Server thread/INFO]: Random number: 2
+[17:35:49] [Server thread/WARN]: UUID of added entity already exists: PrimedTnt['被激活的TNT'/4806, l='ServerLevel[New World]', x=372.14, y=47.00, z=984.28]
+[17:35:49] [Server thread/WARN]: UUID of added entity already exists: PrimedTnt['被激活的TNT'/4806, l='ServerLevel[New World]', x=372.14, y=47.00, z=984.28]
+[17:35:49] [Server thread/INFO]: Random number: 6
+[17:35:49] [Server thread/INFO]: Random number2: 29
+[17:35:50] [Server thread/INFO]: Random number: 6
+[17:35:50] [Server thread/INFO]: Random number2: 5
+[17:35:50] [Server thread/INFO]: Random number: 4
+[17:35:50] [Server thread/INFO]: Random number: 3
+[17:35:50] [Server thread/INFO]: Random number: 6
+[17:35:50] [Server thread/INFO]: Random number2: 37
+[17:35:50] [Server thread/INFO]: Random number: 0
+[17:35:50] [Server thread/INFO]: Random number: 6
+[17:35:50] [Server thread/INFO]: Random number2: 36
+[17:35:50] [Server thread/INFO]: Random number: 4
+[17:35:50] [Server thread/INFO]: Random number: 5
+[17:35:52] [Server thread/INFO]: Random number: 0
+[17:35:53] [Server thread/INFO]: Random number: 5
+[17:35:58] [Server thread/INFO]: [Dev: 杀死了490个实体]
+[17:35:58] [Render thread/INFO]: [CHAT] 杀死了490个实体
+[17:36:00] [Server thread/INFO]: Random number: 5
+[17:36:00] [Server thread/INFO]: Random number: 3
+[17:36:00] [Server thread/INFO]: Random number: 3
+[17:36:01] [Server thread/INFO]: Random number: 0
+[17:36:01] [Server thread/INFO]: Random number: 2
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:01] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/5602, l='ServerLevel[New World]', x=364.30, y=63.00, z=989.24]
+[17:36:02] [Server thread/INFO]: Random number: 0
+[17:36:02] [Server thread/INFO]: Random number: 6
+[17:36:02] [Server thread/INFO]: Random number2: 8
+[17:36:10] [Server thread/INFO]: Random number: 3
+[17:36:10] [Server thread/INFO]: Random number: 0
+[17:36:10] [Server thread/INFO]: Random number: 1
+[17:36:10] [Server thread/INFO]: Random number: 5
+[17:36:11] [Server thread/INFO]: Random number: 4
+[17:36:11] [Server thread/INFO]: Random number: 1
+[17:36:12] [Server thread/INFO]: Random number: 3
+[17:36:12] [Server thread/INFO]: Random number: 1
+[17:36:12] [Server thread/INFO]: Random number: 1
+[17:36:13] [Server thread/INFO]: Random number: 6
+[17:36:13] [Server thread/INFO]: Random number2: 12
+[17:36:13] [Server thread/INFO]: Random number: 4
+[17:36:14] [Server thread/INFO]: Random number: 2
+[17:36:14] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/6616, l='ServerLevel[New World]', x=382.28, y=55.06, z=952.00]
+[17:36:15] [Server thread/INFO]: Random number: 4
+[17:36:15] [Server thread/INFO]: Random number: 4
+[17:36:15] [Server thread/INFO]: Random number: 4
+[17:36:16] [Server thread/INFO]: Random number: 3
+[17:36:16] [Server thread/INFO]: Random number: 7
+[17:36:16] [Server thread/INFO]: Random number: 2
+[17:36:16] [Server thread/WARN]: UUID of added entity already exists: ExperienceOrb['经验球'/6654, l='ServerLevel[New World]', x=388.38, y=63.00, z=940.34]
+[17:36:16] [Server thread/INFO]: Random number: 4
+[17:36:16] [Server thread/INFO]: Random number: 4
+[17:36:16] [Server thread/INFO]: Random number: 4
+[17:36:17] [Server thread/INFO]: Random number: 5
+[17:36:17] [Server thread/INFO]: Random number: 0
+[17:36:17] [Server thread/INFO]: Random number: 1
+[17:36:17] [Server thread/INFO]: Random number: 7
+[17:36:17] [Server thread/INFO]: Random number: 7
+[17:36:17] [Server thread/INFO]: Random number: 6
+[17:36:17] [Server thread/INFO]: Random number2: 33
+[17:36:17] [Server thread/INFO]: Random number: 5
+[17:36:17] [Server thread/INFO]: Random number: 3
+[17:36:17] [Server thread/INFO]: Random number: 2
+[17:36:17] [Server thread/WARN]: UUID of added entity already exists: Zoglin['僵尸疣猪兽'/6920, l='ServerLevel[New World]', x=384.53, y=72.00, z=923.61]
+[17:36:17] [Server thread/WARN]: UUID of added entity already exists: Zoglin['僵尸疣猪兽'/6920, l='ServerLevel[New World]', x=384.53, y=72.00, z=923.61]
+[17:36:18] [Server thread/INFO]: Random number: 5
+[17:36:18] [Server thread/INFO]: Random number: 4
+[17:36:18] [Server thread/INFO]: Random number: 5
+[17:36:18] [Server thread/INFO]: Random number: 4
+[17:36:18] [Server thread/INFO]: Random number: 3
+[17:36:18] [Server thread/INFO]: Random number: 4
+[17:36:18] [Server thread/INFO]: Random number: 6
+[17:36:18] [Server thread/INFO]: Random number2: 40
+[17:36:18] [Server thread/INFO]: Random number: 0
+[17:36:19] [Server thread/INFO]: Random number: 4
+[17:36:19] [Server thread/INFO]: Random number: 7
+[17:36:19] [Server thread/INFO]: Random number: 7
+[17:36:19] [Server thread/INFO]: Random number: 1
+[17:36:20] [Server thread/INFO]: Random number: 1
+[17:36:20] [Server thread/INFO]: Random number: 5
+[17:36:20] [Server thread/INFO]: Random number: 2
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Marker['标记'/8193, l='ServerLevel[New World]', x=385.09, y=45.00, z=928.11]
+[17:36:20] [Server thread/INFO]: Random number: 0
+[17:36:20] [Server thread/INFO]: Random number: 2
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/8231, l='ServerLevel[New World]', x=366.00, y=62.79, z=911.62]
+[17:36:20] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/8231, l='ServerLevel[New World]', x=366.00, y=62.79, z=911.62]
+[17:36:21] [Server thread/INFO]: Random number: 0
+[17:36:21] [Server thread/INFO]: Random number: 6
+[17:36:21] [Server thread/INFO]: Random number2: 13
+[17:36:21] [Server thread/INFO]: Random number: 5
+[17:36:21] [Server thread/INFO]: Random number: 1
+[17:36:21] [Server thread/INFO]: Random number: 4
+[17:36:21] [Server thread/INFO]: Random number: 3
+[17:36:22] [Server thread/INFO]: Random number: 6
+[17:36:22] [Server thread/INFO]: Random number2: 40
+[17:36:22] [Server thread/INFO]: Random number: 6
+[17:36:22] [Server thread/INFO]: Random number2: 13
+[17:36:22] [Server thread/INFO]: Random number: 0
+[17:36:22] [Server thread/INFO]: Random number: 0
+[17:36:22] [Server thread/INFO]: Random number: 3
+[17:36:22] [Server thread/INFO]: Random number: 0
+[17:36:23] [Server thread/INFO]: Random number: 3
+[17:36:23] [Server thread/INFO]: Random number: 5
+[17:36:23] [Server thread/INFO]: Random number: 6
+[17:36:23] [Server thread/INFO]: Random number2: 15
+[17:36:23] [Server thread/INFO]: Random number: 7
+[17:36:23] [Server thread/INFO]: Random number: 4
+[17:36:24] [Server thread/INFO]: Random number: 7
+[17:36:24] [Server thread/INFO]: Random number: 2
+[17:36:24] [Server thread/WARN]: UUID of added entity already exists: Sheep['绵羊'/10289, l='ServerLevel[New World]', x=332.69, y=63.00, z=911.25]
+[17:36:24] [Server thread/WARN]: UUID of added entity already exists: Sheep['绵羊'/10289, l='ServerLevel[New World]', x=332.69, y=63.00, z=911.25]
+[17:36:24] [Server thread/WARN]: UUID of added entity already exists: Sheep['绵羊'/10289, l='ServerLevel[New World]', x=332.69, y=63.00, z=911.25]
+[17:36:24] [Server thread/WARN]: UUID of added entity already exists: Sheep['绵羊'/10289, l='ServerLevel[New World]', x=332.69, y=63.00, z=911.25]
+[17:36:24] [Server thread/WARN]: UUID of added entity already exists: Sheep['绵羊'/10289, l='ServerLevel[New World]', x=332.69, y=63.00, z=911.25]
+[17:36:24] [Server thread/WARN]: UUID of added entity already exists: Sheep['绵羊'/10289, l='ServerLevel[New World]', x=332.69, y=63.00, z=911.25]
+[17:36:24] [Server thread/INFO]: Random number: 6
+[17:36:24] [Server thread/INFO]: Random number2: 11
+[17:36:24] [Server thread/INFO]: Random number: 3
+[17:36:24] [Server thread/INFO]: Random number: 5
+[17:36:25] [Server thread/INFO]: Random number: 3
+[17:36:25] [Server thread/INFO]: Random number: 2
+[17:36:25] [Server thread/WARN]: UUID of added entity already exists: Giant['巨人'/10620, l='ServerLevel[New World]', x=334.74, y=63.00, z=918.64]
+[17:36:25] [Server thread/WARN]: UUID of added entity already exists: Giant['巨人'/10620, l='ServerLevel[New World]', x=334.74, y=63.00, z=918.64]
+[17:36:25] [Server thread/INFO]: Random number: 3
+[17:36:25] [Server thread/INFO]: Random number: 4
+[17:36:26] [Server thread/INFO]: Random number: 2
+[17:36:26] [Server thread/INFO]: Random number: 1
+[17:36:26] [Server thread/INFO]: Random number: 3
+[17:36:26] [Server thread/INFO]: Random number: 7
+[17:36:26] [Server thread/INFO]: Random number: 1
+[17:36:27] [Server thread/INFO]: Random number: 0
+[17:36:27] [Server thread/INFO]: Random number: 1
+[17:36:27] [Server thread/INFO]: Random number: 4
+[17:36:27] [Server thread/INFO]: Random number: 3
+[17:36:28] [Server thread/INFO]: Random number: 7
+[17:36:28] [Server thread/INFO]: Random number: 6
+[17:36:28] [Server thread/INFO]: Random number2: 14
+[17:36:28] [Server thread/INFO]: Random number: 7
+[17:36:28] [Server thread/INFO]: Random number: 5
+[17:36:28] [Server thread/INFO]: Random number: 7
+[17:36:28] [Server thread/INFO]: Random number: 4
+[17:36:29] [Server thread/INFO]: Random number: 1
+[17:36:30] [Server thread/INFO]: Random number: 4
+[17:36:30] [Server thread/INFO]: Random number: 3
+[17:36:30] [Server thread/INFO]: Random number: 0
+[17:36:30] [Server thread/INFO]: Random number: 4
+[17:36:30] [Server thread/INFO]: Random number: 3
+[17:36:31] [Server thread/INFO]: Random number: 2
+[17:36:31] [Server thread/WARN]: UUID of added entity already exists: ZombieHorse['僵尸马'/11665, l='ServerLevel[New World]', x=299.88, y=63.00, z=918.58]
+[17:36:31] [Server thread/WARN]: UUID of added entity already exists: ZombieHorse['僵尸马'/11665, l='ServerLevel[New World]', x=299.88, y=63.00, z=918.58]
+[17:36:31] [Server thread/WARN]: UUID of added entity already exists: ZombieHorse['僵尸马'/11665, l='ServerLevel[New World]', x=299.88, y=63.00, z=918.58]
+[17:36:31] [Server thread/INFO]: Random number: 4
+[17:36:32] [Server thread/INFO]: Random number: 3
+[17:36:32] [Server thread/INFO]: Random number: 4
+[17:36:32] [Server thread/INFO]: Random number: 4
+[17:36:33] [Server thread/INFO]: Random number: 2
+[17:36:33] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/12142, l='ServerLevel[New World]', x=319.57, y=47.00, z=923.18]
+[17:36:33] [Server thread/INFO]: Random number: 0
+[17:36:33] [Server thread/INFO]: Random number: 4
+[17:36:34] [Server thread/INFO]: Random number: 3
+[17:36:34] [Server thread/INFO]: Random number: 2
+[17:36:35] [Server thread/INFO]: Random number: 7
+[17:36:35] [Server thread/INFO]: Random number: 0
+[17:36:35] [Server thread/INFO]: Random number: 2
+[17:36:35] [Server thread/WARN]: UUID of added entity already exists: EnderDragon['末影龙'/12291, l='ServerLevel[New World]', x=286.87, y=48.00, z=935.00]
+[17:36:35] [Server thread/WARN]: UUID of added entity already exists: EnderDragon['末影龙'/12291, l='ServerLevel[New World]', x=286.87, y=48.00, z=935.00]
+[17:36:35] [Server thread/WARN]: UUID of added entity already exists: EnderDragon['末影龙'/12291, l='ServerLevel[New World]', x=286.87, y=48.00, z=935.00]
+[17:36:35] [Server thread/WARN]: UUID of added entity already exists: EnderDragon['末影龙'/12291, l='ServerLevel[New World]', x=286.87, y=48.00, z=935.00]
+[17:36:35] [Server thread/INFO]: Random number: 4
+[17:36:35] [Server thread/INFO]: Random number: 1
+[17:36:35] [Server thread/INFO]: Random number: 2
+[17:36:35] [Server thread/INFO]: Random number: 7
+[17:36:35] [Server thread/INFO]: Random number: 1
+[17:36:35] [Server thread/INFO]: Random number: 2
+[17:36:36] [Server thread/INFO]: Random number: 5
+[17:36:36] [Server thread/INFO]: Random number: 0
+[17:36:36] [Server thread/INFO]: Random number: 1
+[17:36:36] [Server thread/INFO]: Random number: 2
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/WARN]: UUID of added entity already exists: MushroomCow['哞菇'/12429, l='ServerLevel[New World]', x=285.33, y=47.00, z=950.21]
+[17:36:36] [Server thread/INFO]: Random number: 0
+[17:36:37] [Server thread/INFO]: Random number: 7
+[17:36:37] [Server thread/INFO]: Random number: 3
+[17:36:37] [Server thread/INFO]: Random number: 7
+[17:36:37] [Server thread/INFO]: Random number: 7
+[17:36:37] [Server thread/INFO]: Random number: 5
+[17:36:37] [Server thread/INFO]: Random number: 2
+[17:36:37] [Server thread/INFO]: Random number: 3
+[17:36:37] [Server thread/INFO]: Random number: 2
+[17:36:37] [Server thread/INFO]: Random number: 5
+[17:36:38] [Server thread/INFO]: Random number: 3
+[17:36:38] [Server thread/INFO]: Random number: 1
+[17:36:38] [Server thread/INFO]: Random number: 6
+[17:36:38] [Server thread/INFO]: Random number2: 18
+[17:36:38] [Server thread/INFO]: Random number: 7
+[17:36:38] [Server thread/INFO]: Random number: 7
+[17:36:38] [Server thread/INFO]: Random number: 1
+[17:36:38] [Server thread/INFO]: Random number: 6
+[17:36:38] [Server thread/INFO]: Random number2: 9
+[17:36:38] [Server thread/INFO]: Villager Villager['村民'/12866, l='ServerLevel[New World]', x=289.00, y=65.92, z=867.87] was struck by lightning LightningBolt['闪电束'/12793, l='ServerLevel[New World]', x=289.00, y=65.92, z=867.87].
+[17:36:39] [Server thread/INFO]: Random number: 0
+[17:36:39] [Server thread/INFO]: Random number: 6
+[17:36:39] [Server thread/INFO]: Random number2: 0
+[17:36:39] [Server thread/INFO]: Random number: 2
+[17:36:39] [Server thread/INFO]: Random number: 4
+[17:36:40] [Server thread/INFO]: Random number: 5
+[17:36:40] [Server thread/INFO]: Random number: 4
+[17:36:41] [Server thread/INFO]: Random number: 7
+[17:36:41] [Server thread/INFO]: Random number: 2
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/WARN]: UUID of added entity already exists: Squid['鱿鱼'/13309, l='ServerLevel[New World]', x=308.54, y=47.00, z=916.26]
+[17:36:41] [Server thread/INFO]: Random number: 5
+[17:36:42] [Server thread/INFO]: Random number: 3
+[17:36:42] [Server thread/INFO]: Random number: 1
+[17:36:42] [Server thread/INFO]: Random number: 4
+[17:36:42] [Server thread/INFO]: Random number: 7
+[17:36:42] [Server thread/INFO]: Random number: 5
+[17:36:42] [Server thread/INFO]: Random number: 5
+[17:36:43] [Server thread/INFO]: Random number: 7
+[17:36:43] [Server thread/INFO]: Random number: 6
+[17:36:43] [Server thread/INFO]: Random number2: 39
+[17:36:43] [Server thread/INFO]: Random number: 7
+[17:36:43] [Server thread/INFO]: Random number: 6
+[17:36:43] [Server thread/INFO]: Random number2: 15
+[17:36:44] [Server thread/INFO]: Random number: 7
+[17:36:44] [Server thread/INFO]: Random number: 3
+[17:36:44] [Server thread/INFO]: Random number: 7
+[17:36:44] [Server thread/INFO]: Random number: 7
+[17:36:44] [Server thread/INFO]: Random number: 4
+[17:36:45] [Server thread/INFO]: Random number: 1
+[17:36:45] [Server thread/INFO]: Random number: 5
+[17:36:45] [Server thread/INFO]: Random number: 5
+[17:36:45] [Server thread/INFO]: Random number: 6
+[17:36:45] [Server thread/INFO]: Random number2: 8
+[17:36:45] [Server thread/INFO]: Random number: 6
+[17:36:45] [Server thread/INFO]: Random number2: 16
+[17:36:45] [Server thread/INFO]: Random number: 6
+[17:36:45] [Server thread/INFO]: Random number2: 3
+[17:36:45] [Server thread/INFO]: Random number: 6
+[17:36:45] [Server thread/INFO]: Random number2: 21
+[17:36:45] [Server thread/INFO]: Random number: 7
+[17:36:45] [Server thread/INFO]: Random number: 6
+[17:36:45] [Server thread/INFO]: Random number2: 38
+[17:36:46] [Server thread/INFO]: Random number: 6
+[17:36:46] [Server thread/INFO]: Random number2: 13
+[17:36:46] [Server thread/INFO]: Random number: 2
+[17:36:46] [Server thread/INFO]: Random number: 0
+[17:36:46] [Server thread/INFO]: Random number: 0
+[17:36:46] [Server thread/INFO]: Random number: 5
+[17:36:46] [Server thread/INFO]: Random number: 7
+[17:36:47] [Server thread/INFO]: Random number: 0
+[17:36:47] [Server thread/INFO]: Random number: 5
+[17:36:47] [Server thread/INFO]: Random number: 6
+[17:36:47] [Server thread/INFO]: Random number2: 13
+[17:36:47] [Server thread/INFO]: Random number: 7
+[17:36:48] [Server thread/INFO]: Random number: 2
+[17:36:48] [Server thread/INFO]: Random number: 3
+[17:36:48] [Server thread/INFO]: Random number: 7
+[17:36:48] [Server thread/INFO]: Random number: 2
+[17:36:48] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/14520, l='ServerLevel[New World]', x=269.81, y=63.00, z=882.08]
+[17:36:48] [Server thread/WARN]: UUID of added entity already exists: Turtle['海龟'/14520, l='ServerLevel[New World]', x=269.81, y=63.00, z=882.08]
+[17:36:49] [Server thread/INFO]: Random number: 1
+[17:36:50] [Server thread/INFO]: Random number: 3
+[17:36:50] [Server thread/INFO]: Random number: 3
+[17:36:50] [Server thread/INFO]: Random number: 5
+[17:36:50] [Server thread/INFO]: Random number: 6
+[17:36:50] [Server thread/INFO]: Random number2: 30
+[17:36:50] [Server thread/INFO]: Random number: 0
+[17:36:51] [Server thread/INFO]: Random number: 0
+[17:36:51] [Server thread/INFO]: Random number: 7
+[17:36:52] [Server thread/INFO]: Random number: 2
+[17:36:52] [Server thread/INFO]: Random number: 6
+[17:36:52] [Server thread/INFO]: Random number2: 15
+[17:36:52] [Server thread/INFO]: Random number: 4
+[17:36:52] [Server thread/INFO]: Random number: 6
+[17:36:52] [Server thread/INFO]: Random number2: 10
+[17:36:53] [Server thread/INFO]: Random number: 3
+[17:36:53] [Server thread/INFO]: Random number: 4
+[17:36:53] [Server thread/INFO]: Random number: 5
+[17:36:54] [Server thread/INFO]: Random number: 3
+[17:36:54] [Server thread/INFO]: Random number: 7
+[17:36:54] [Server thread/INFO]: Random number: 5
+[17:36:54] [Server thread/INFO]: Random number: 3
+[17:36:54] [Server thread/INFO]: Random number: 7
+[17:36:55] [Server thread/INFO]: Random number: 3
+[17:36:55] [Server thread/INFO]: Random number: 6
+[17:36:55] [Server thread/INFO]: Random number2: 40
+[17:36:55] [Server thread/INFO]: Random number: 1
+[17:36:55] [Server thread/INFO]: Random number: 0
+[17:36:56] [Server thread/INFO]: Random number: 4
+[17:36:56] [Server thread/INFO]: Random number: 4
+[17:36:57] [Server thread/INFO]: Random number: 2
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/WARN]: UUID of added entity already exists: Illusioner['幻术师'/16402, l='ServerLevel[New World]', x=285.82, y=67.00, z=840.08]
+[17:36:57] [Server thread/INFO]: Random number: 4
+[17:36:57] [Server thread/INFO]: Random number: 5
+[17:36:59] [Server thread/INFO]: Random number: 2
+[17:36:59] [Server thread/INFO]: Random number: 4
+[17:36:59] [Server thread/INFO]: Random number: 5
+[17:36:59] [Render thread/INFO]: Loaded 478 advancements
+[17:37:00] [Server thread/INFO]: Random number: 6
+[17:37:00] [Server thread/INFO]: Random number2: 13
+[17:37:00] [Server thread/INFO]: Random number: 4
+[17:37:00] [Server thread/INFO]: Random number: 5
+[17:37:00] [Server thread/INFO]: Random number: 2
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/WARN]: UUID of added entity already exists: MinecartHopper['漏斗矿车'/16996, l='ServerLevel[New World]', x=274.99, y=61.86, z=855.00]
+[17:37:00] [Server thread/INFO]: Random number: 7
+[17:37:00] [Server thread/INFO]: Random number: 7
+[17:37:00] [Server thread/INFO]: Random number: 2
+[17:37:00] [Server thread/INFO]: Random number: 3
+[17:37:00] [Server thread/INFO]: Random number: 0
+[17:37:00] [Server thread/INFO]: Random number: 4
+[17:37:00] [Server thread/INFO]: Villager Villager['村民'/17069, l='ServerLevel[New World]', x=266.88, y=63.00, z=791.55] died, message: '村民爆炸了'
+[17:37:01] [Render thread/INFO]: Villager Villager['村民'/17069, l='ClientLevel', x=266.88, y=63.00, z=791.55] died, message: '村民死了'
+[17:37:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2191ms or 43 ticks behind
+[17:37:01] [Server thread/INFO]: Random number: 4
+[17:37:01] [Server thread/INFO]: Random number: 1
+[17:37:01] [Server thread/INFO]: Random number: 3
+[17:37:01] [Server thread/INFO]: Random number: 0
+[17:37:02] [Server thread/INFO]: Random number: 3
+[17:37:02] [Server thread/INFO]: Random number: 4
+[17:37:02] [Server thread/INFO]: Random number: 5
+[17:37:02] [Server thread/INFO]: Random number: 3
+[17:37:02] [Server thread/INFO]: Random number: 2
+[17:37:02] [Server thread/INFO]: Random number: 0
+[17:37:02] [Server thread/INFO]: Random number: 5
+[17:37:02] [Server thread/INFO]: Random number: 3
+[17:37:02] [Server thread/INFO]: Random number: 1
+[17:37:03] [Server thread/INFO]: Random number: 6
+[17:37:03] [Server thread/INFO]: Random number2: 31
+[17:37:03] [Server thread/INFO]: Random number: 7
+[17:37:03] [Server thread/INFO]: Random number: 1
+[17:37:03] [Server thread/INFO]: Random number: 4
+[17:37:04] [Server thread/INFO]: Random number: 1
+[17:37:04] [Server thread/INFO]: Random number: 0
+[17:37:04] [Server thread/INFO]: Random number: 3
+[17:37:05] [Server thread/INFO]: Random number: 0
+[17:37:06] [Server thread/INFO]: Random number: 0
+[17:37:06] [Server thread/INFO]: Random number: 3
+[17:37:09] [Server thread/INFO]: Random number: 3
+[17:37:09] [Server thread/INFO]: Random number: 0
+[17:37:09] [Server thread/INFO]: Random number: 7
+[17:37:10] [Server thread/INFO]: Random number: 0
+[17:37:10] [Server thread/INFO]: Random number: 7
+[17:37:10] [Server thread/INFO]: Random number: 2
+[17:37:10] [Server thread/WARN]: UUID of added entity already exists: Hoglin['疣猪兽'/18050, l='ServerLevel[New World]', x=274.84, y=78.00, z=710.34]
+[17:37:10] [Server thread/WARN]: UUID of added entity already exists: Hoglin['疣猪兽'/18050, l='ServerLevel[New World]', x=274.84, y=78.00, z=710.34]
+[17:37:10] [Server thread/WARN]: UUID of added entity already exists: Hoglin['疣猪兽'/18050, l='ServerLevel[New World]', x=274.84, y=78.00, z=710.34]
+[17:37:10] [Server thread/INFO]: Random number: 3
+[17:37:10] [Server thread/INFO]: Random number: 3
+[17:37:10] [Server thread/INFO]: Random number: 4
+[17:37:11] [Server thread/INFO]: Random number: 0
+[17:37:11] [Server thread/INFO]: Random number: 2
+[17:37:11] [Server thread/WARN]: UUID of added entity already exists: WitherBoss['凋灵'/18136, l='ServerLevel[New World]', x=274.62, y=93.00, z=705.50]
+[17:37:11] [Server thread/WARN]: UUID of added entity already exists: WitherBoss['凋灵'/18136, l='ServerLevel[New World]', x=274.62, y=93.00, z=705.50]
+[17:37:11] [Server thread/WARN]: UUID of added entity already exists: WitherBoss['凋灵'/18136, l='ServerLevel[New World]', x=274.62, y=93.00, z=705.50]
+[17:37:11] [Server thread/INFO]: Random number: 6
+[17:37:11] [Server thread/INFO]: Random number2: 33
+[17:37:12] [Server thread/INFO]: Random number: 3
+[17:37:12] [Server thread/INFO]: Random number: 5
+[17:37:12] [Server thread/INFO]: Random number: 7
+[17:37:12] [Server thread/INFO]: Random number: 2
+[17:37:12] [Server thread/WARN]: UUID of added entity already exists: Cat['猫'/18295, l='ServerLevel[New World]', x=278.58, y=88.00, z=700.12]
+[17:37:12] [Server thread/WARN]: UUID of added entity already exists: Cat['猫'/18295, l='ServerLevel[New World]', x=278.58, y=88.00, z=700.12]
+[17:37:12] [Server thread/WARN]: UUID of added entity already exists: Cat['猫'/18295, l='ServerLevel[New World]', x=278.58, y=88.00, z=700.12]
+[17:37:12] [Server thread/WARN]: UUID of added entity already exists: Cat['猫'/18295, l='ServerLevel[New World]', x=278.58, y=88.00, z=700.12]
+[17:37:13] [Server thread/INFO]: Random number: 7
+[17:37:13] [Server thread/INFO]: Random number: 4
+[17:37:13] [Server thread/INFO]: Random number: 3
+[17:37:14] [Server thread/INFO]: Random number: 4
+[17:37:14] [Server thread/INFO]: Random number: 2
+[17:37:14] [Server thread/WARN]: UUID of added entity already exists: Dolphin['海豚'/18442, l='ServerLevel[New World]', x=277.12, y=81.00, z=667.46]
+[17:37:14] [Server thread/WARN]: UUID of added entity already exists: Dolphin['海豚'/18442, l='ServerLevel[New World]', x=277.12, y=81.00, z=667.46]
+[17:37:14] [Server thread/WARN]: UUID of added entity already exists: Dolphin['海豚'/18442, l='ServerLevel[New World]', x=277.12, y=81.00, z=667.46]
+[17:37:14] [Server thread/WARN]: UUID of added entity already exists: Dolphin['海豚'/18442, l='ServerLevel[New World]', x=277.12, y=81.00, z=667.46]
+[17:37:14] [Server thread/INFO]: Random number: 3
+[17:37:14] [Server thread/INFO]: Random number: 5
+[17:37:14] [Server thread/INFO]: Random number: 6
+[17:37:14] [Server thread/INFO]: Random number2: 39
+[17:37:14] [Server thread/INFO]: Random number: 7
+[17:37:14] [Server thread/INFO]: Random number: 2
+[17:37:15] [Server thread/INFO]: Random number: 7
+[17:37:15] [Server thread/INFO]: Random number: 4
+[17:37:15] [Server thread/INFO]: Random number: 4
+[17:37:15] [Server thread/INFO]: Random number: 7
+[17:37:16] [Server thread/INFO]: Random number: 3
+[17:37:16] [Server thread/INFO]: Random number: 2
+[17:37:16] [Server thread/WARN]: UUID of added entity already exists: SpectralArrow['光灵箭'/18598, l='ServerLevel[New World]', x=297.87, y=66.32, z=663.00]
+[17:37:16] [Server thread/WARN]: UUID of added entity already exists: SpectralArrow['光灵箭'/18598, l='ServerLevel[New World]', x=297.87, y=66.32, z=663.00]
+[17:37:16] [Server thread/WARN]: UUID of added entity already exists: SpectralArrow['光灵箭'/18598, l='ServerLevel[New World]', x=297.87, y=66.32, z=663.00]
+[17:37:16] [Server thread/INFO]: Random number: 3
+[17:37:17] [Server thread/INFO]: Random number: 6
+[17:37:17] [Server thread/INFO]: Random number2: 9
+[17:37:17] [Server thread/INFO]: Random number: 4
+[17:37:17] [Server thread/INFO]: Villager Villager['村民'/18660, l='ServerLevel[New World]', x=303.94, y=63.00, z=675.16] died, message: '村民被劫掠兽炸死了'
+[17:37:17] [Server thread/INFO]: Villager Villager['村民'/18671, l='ServerLevel[New World]', x=303.94, y=63.00, z=675.16] died, message: '村民爆炸了'
+[17:37:17] [Render thread/INFO]: Villager Villager['村民'/18660, l='ClientLevel', x=303.94, y=63.00, z=675.16] died, message: '村民死了'
+[17:37:17] [Render thread/INFO]: Villager Villager['村民'/18671, l='ClientLevel', x=303.94, y=63.00, z=675.16] died, message: '村民死了'
+[17:37:17] [Server thread/INFO]: Random number: 0
+[17:37:17] [Server thread/INFO]: Random number: 3
+[17:37:17] [Server thread/INFO]: Random number: 3
+[17:37:17] [Server thread/INFO]: Random number: 4
+[17:37:18] [Server thread/INFO]: Random number: 6
+[17:37:18] [Server thread/INFO]: Random number2: 25
+[17:37:18] [Server thread/INFO]: Random number: 5
+[17:37:18] [Server thread/INFO]: Random number: 5
+[17:37:18] [Server thread/INFO]: Random number: 5
+[17:37:18] [Server thread/INFO]: Random number: 2
+[17:37:18] [Server thread/INFO]: Random number: 6
+[17:37:18] [Server thread/INFO]: Random number2: 42
+[17:37:18] [Server thread/INFO]: Random number: 6
+[17:37:18] [Server thread/INFO]: Random number2: 3
+[17:37:18] [Server thread/INFO]: Random number: 6
+[17:37:18] [Server thread/INFO]: Random number2: 36
+[17:37:19] [Server thread/INFO]: Random number: 0
+[17:37:19] [Server thread/INFO]: Random number: 0
+[17:37:19] [Server thread/INFO]: Random number: 5
+[17:37:19] [Server thread/INFO]: Random number: 3
+[17:37:19] [Server thread/INFO]: Random number: 1
+[17:37:20] [Server thread/INFO]: Random number: 3
+[17:37:20] [Server thread/INFO]: Random number: 0
+[17:37:20] [Server thread/INFO]: Random number: 7
+[17:37:21] [Server thread/INFO]: Random number: 7
+[17:37:21] [Server thread/INFO]: Random number: 5
+[17:37:21] [Server thread/INFO]: Random number: 6
+[17:37:21] [Server thread/INFO]: Random number2: 38
+[17:37:21] [Server thread/INFO]: Random number: 6
+[17:37:21] [Server thread/INFO]: Random number2: 7
+[17:37:21] [Server thread/INFO]: Random number: 0
+[17:37:22] [Server thread/INFO]: Random number: 3
+[17:37:22] [Server thread/INFO]: Random number: 1
+[17:37:22] [Server thread/INFO]: Random number: 1
+[17:37:22] [Server thread/INFO]: Random number: 1
+[17:37:22] [Server thread/INFO]: Random number: 2
+[17:37:22] [Server thread/INFO]: Random number: 0
+[17:37:22] [Server thread/INFO]: Random number: 5
+[17:37:23] [Server thread/INFO]: Random number: 7
+[17:37:23] [Server thread/INFO]: Random number: 5
+[17:37:23] [Server thread/INFO]: Random number: 6
+[17:37:23] [Server thread/INFO]: Random number2: 20
+[17:37:23] [Server thread/INFO]: Random number: 4
+[17:37:24] [Server thread/INFO]: Random number: 6
+[17:37:24] [Server thread/INFO]: Random number2: 11
+[17:37:24] [Server thread/INFO]: Random number: 1
+[17:37:24] [Server thread/INFO]: Random number: 4
+[17:37:25] [Server thread/INFO]: Random number: 3
+[17:37:25] [Server thread/INFO]: Random number: 3
+[17:37:25] [Server thread/INFO]: Random number: 2
+[17:37:25] [Server thread/WARN]: UUID of added entity already exists: MinecartCommandBlock['命令方块矿车'/20346, l='ServerLevel[New World]', x=285.00, y=101.17, z=639.33]
+[17:37:25] [Server thread/WARN]: UUID of added entity already exists: MinecartCommandBlock['命令方块矿车'/20346, l='ServerLevel[New World]', x=285.00, y=101.17, z=639.33]
+[17:37:25] [Server thread/INFO]: Random number: 7
+[17:37:25] [Server thread/INFO]: Random number: 4
+[17:37:25] [Server thread/INFO]: Random number: 3
+[17:37:26] [Server thread/INFO]: Random number: 5
+[17:37:26] [Server thread/INFO]: Random number: 7
+[17:37:26] [Server thread/INFO]: Random number: 7
+[17:37:26] [Server thread/INFO]: Random number: 0
+[17:37:26] [Server thread/INFO]: Random number: 2
+[17:37:26] [Server thread/WARN]: UUID of added entity already exists: Shulker['潜影贝'/20443, l='ServerLevel[New World]', x=277.50, y=77.00, z=642.50]
+[17:37:26] [Server thread/WARN]: UUID of added entity already exists: Shulker['潜影贝'/20443, l='ServerLevel[New World]', x=277.50, y=77.00, z=642.50]
+[17:37:26] [Server thread/WARN]: UUID of added entity already exists: Shulker['潜影贝'/20443, l='ServerLevel[New World]', x=277.50, y=77.00, z=642.50]
+[17:37:26] [Server thread/WARN]: UUID of added entity already exists: Shulker['潜影贝'/20443, l='ServerLevel[New World]', x=277.50, y=77.00, z=642.50]
+[17:37:26] [Server thread/INFO]: Random number: 5
+[17:37:26] [Server thread/INFO]: Random number: 0
+[17:37:27] [Server thread/INFO]: Random number: 7
+[17:37:27] [Server thread/INFO]: Random number: 5
+[17:37:27] [Server thread/INFO]: Random number: 7
+[17:37:28] [Server thread/INFO]: Random number: 3
+[17:37:28] [Server thread/INFO]: Random number: 7
+[17:37:28] [Server thread/INFO]: Random number: 1
+[17:37:28] [Server thread/INFO]: Random number: 1
+[17:37:28] [Server thread/INFO]: Random number: 2
+[17:37:28] [Server thread/WARN]: UUID of added entity already exists: Spider['蜘蛛'/20621, l='ServerLevel[New World]', x=263.59, y=77.00, z=642.99]
+[17:37:28] [Server thread/WARN]: UUID of added entity already exists: Spider['蜘蛛'/20621, l='ServerLevel[New World]', x=263.59, y=77.00, z=642.99]
+[17:37:28] [Server thread/WARN]: UUID of added entity already exists: Spider['蜘蛛'/20621, l='ServerLevel[New World]', x=263.59, y=77.00, z=642.99]
+[17:37:28] [Server thread/WARN]: UUID of added entity already exists: Spider['蜘蛛'/20621, l='ServerLevel[New World]', x=263.59, y=77.00, z=642.99]
+[17:37:28] [Server thread/INFO]: Random number: 5
+[17:37:29] [Server thread/INFO]: Random number: 0
+[17:37:29] [Server thread/INFO]: Random number: 6
+[17:37:29] [Server thread/INFO]: Random number2: 15
+[17:37:29] [Server thread/INFO]: Random number: 5
+[17:37:29] [Server thread/INFO]: Random number: 7
+[17:37:29] [Server thread/INFO]: Random number: 4
+[17:37:30] [Server thread/INFO]: Random number: 4
+[17:37:31] [Server thread/INFO]: Random number: 5
+[17:37:31] [Server thread/INFO]: Random number: 0
+[17:37:31] [Server thread/INFO]: Random number: 2
+[17:37:31] [Server thread/INFO]: Random number: 2
+[17:37:31] [Server thread/INFO]: Random number: 0
+[17:37:31] [Server thread/INFO]: Random number: 1
+[17:37:32] [Server thread/INFO]: Random number: 4
+[17:37:32] [Server thread/INFO]: Random number: 7
+[17:37:32] [Server thread/INFO]: Random number: 4
+[17:37:32] [Server thread/INFO]: Random number: 0
+[17:37:32] [Server thread/INFO]: Random number: 2
+[17:37:33] [Server thread/INFO]: Random number: 2
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/WARN]: UUID of added entity already exists: Parrot['鹦鹉'/21158, l='ServerLevel[New World]', x=260.52, y=58.90, z=692.00]
+[17:37:33] [Server thread/INFO]: Random number: 0
+[17:37:33] [Server thread/INFO]: Random number: 0
+[17:37:33] [Server thread/INFO]: Random number: 5
+[17:37:33] [Server thread/INFO]: Random number: 2
+[17:37:34] [Server thread/INFO]: Random number: 7
+[17:37:34] [Server thread/INFO]: Random number: 6
+[17:37:34] [Server thread/INFO]: Random number2: 36
+[17:37:34] [Server thread/INFO]: Random number: 2
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/WARN]: UUID of added entity already exists: MinecartSpawner['刷怪笼矿车'/21332, l='ServerLevel[New World]', x=256.60, y=61.00, z=696.35]
+[17:37:34] [Server thread/INFO]: Random number: 3
+[17:37:34] [Server thread/INFO]: Random number: 2
+[17:37:34] [Server thread/INFO]: Random number: 5
+[17:37:35] [Server thread/INFO]: Random number: 6
+[17:37:35] [Server thread/INFO]: Random number2: 11
+[17:37:35] [Server thread/INFO]: Random number: 3
+[17:37:35] [Server thread/INFO]: Random number: 2
+[17:37:35] [Server thread/WARN]: UUID of added entity already exists: TraderLlama['行商羊驼'/21580, l='ServerLevel[New World]', x=260.00, y=59.00, z=678.26]
+[17:37:35] [Server thread/WARN]: UUID of added entity already exists: TraderLlama['行商羊驼'/21580, l='ServerLevel[New World]', x=260.00, y=59.00, z=678.26]
+[17:37:35] [Server thread/WARN]: UUID of added entity already exists: TraderLlama['行商羊驼'/21580, l='ServerLevel[New World]', x=260.00, y=59.00, z=678.26]
+[17:37:35] [Server thread/WARN]: UUID of added entity already exists: TraderLlama['行商羊驼'/21580, l='ServerLevel[New World]', x=260.00, y=59.00, z=678.26]
+[17:37:35] [Server thread/INFO]: Random number: 4
+[17:37:35] [Server thread/INFO]: Random number: 6
+[17:37:35] [Server thread/INFO]: Random number2: 38
+[17:37:36] [Server thread/INFO]: Random number: 5
+[17:37:36] [Server thread/INFO]: Random number: 6
+[17:37:36] [Server thread/INFO]: Random number2: 14
+[17:37:36] [Server thread/INFO]: Random number: 5
+[17:37:36] [Server thread/INFO]: Random number: 1
+[17:37:36] [Server thread/INFO]: Random number: 4
+[17:37:37] [Server thread/INFO]: Random number: 3
+[17:37:37] [Server thread/INFO]: Random number: 4
+[17:37:37] [Server thread/INFO]: Random number: 1
+[17:37:37] [Server thread/INFO]: Random number: 3
+[17:37:37] [Server thread/INFO]: Random number: 7
+[17:37:37] [Server thread/INFO]: Random number: 6
+[17:37:37] [Server thread/INFO]: Random number2: 4
+[17:37:37] [Server thread/INFO]: Random number: 0
+[17:37:37] [Server thread/INFO]: Random number: 5
+[17:37:37] [Server thread/INFO]: Random number: 4
+[17:37:38] [Server thread/INFO]: Random number: 0
+[17:37:38] [Server thread/INFO]: Random number: 6
+[17:37:38] [Server thread/INFO]: Random number2: 19
+[17:37:38] [Server thread/INFO]: Random number: 7
+[17:37:39] [Server thread/INFO]: Random number: 5
+[17:37:39] [Server thread/INFO]: Random number: 5
+[17:37:39] [Server thread/INFO]: Random number: 0
+[17:37:39] [Server thread/INFO]: Random number: 5
+[17:37:40] [Server thread/INFO]: Random number: 1
+[17:37:40] [Server thread/INFO]: Random number: 6
+[17:37:40] [Server thread/INFO]: Random number2: 27
+[17:37:41] [Server thread/INFO]: Random number: 3
+[17:37:41] [Server thread/INFO]: Random number: 1
+[17:37:41] [Server thread/INFO]: Random number: 2
+[17:37:41] [Server thread/INFO]: Random number: 1
+[17:37:41] [Server thread/INFO]: Random number: 5
+[17:37:42] [Server thread/INFO]: Random number: 5
+[17:37:43] [Server thread/INFO]: Random number: 5
+[17:37:43] [Server thread/INFO]: Random number: 1
+[17:37:43] [Server thread/INFO]: Random number: 5
+[17:37:44] [Server thread/INFO]: Random number: 4
+[17:37:44] [Server thread/INFO]: Random number: 6
+[17:37:44] [Server thread/INFO]: Random number2: 26
+[17:37:44] [Server thread/INFO]: Random number: 0
+[17:37:44] [Server thread/INFO]: Random number: 6
+[17:37:44] [Server thread/INFO]: Random number2: 17
+[17:37:44] [Server thread/INFO]: Random number: 2
+[17:37:44] [Server thread/INFO]: Random number: 1
+[17:37:44] [Server thread/INFO]: Random number: 7
+[17:37:44] [Server thread/INFO]: Random number: 5
+[17:37:44] [Server thread/INFO]: Random number: 2
+[17:37:44] [Server thread/INFO]: Random number: 0
+[17:37:44] [Server thread/INFO]: Random number: 6
+[17:37:44] [Server thread/INFO]: Random number2: 37
+[17:37:44] [Server thread/INFO]: Random number: 6
+[17:37:44] [Server thread/INFO]: Random number2: 13
+[17:37:44] [Server thread/INFO]: Random number: 7
+[17:37:44] [Server thread/INFO]: Random number: 6
+[17:37:44] [Server thread/INFO]: Random number2: 11
+[17:37:45] [Server thread/INFO]: Random number: 4
+[17:37:45] [Server thread/INFO]: Random number: 6
+[17:37:45] [Server thread/INFO]: Random number2: 17
+[17:37:45] [Server thread/INFO]: Random number: 6
+[17:37:45] [Server thread/INFO]: Random number2: 25
+[17:37:45] [Server thread/INFO]: Random number: 0
+[17:37:45] [Server thread/INFO]: Random number: 6
+[17:37:45] [Server thread/INFO]: Random number2: 8
+[17:37:45] [Server thread/INFO]: Random number: 4
+[17:37:46] [Server thread/INFO]: Random number: 0
+[17:37:46] [Server thread/INFO]: Random number: 6
+[17:37:46] [Server thread/INFO]: Random number2: 13
+[17:37:46] [Server thread/INFO]: Random number: 0
+[17:37:46] [Server thread/INFO]: Random number: 5
+[17:37:47] [Server thread/INFO]: Random number: 0
+[17:37:47] [Server thread/INFO]: Random number: 0
+[17:37:47] [Server thread/INFO]: Random number: 6
+[17:37:47] [Server thread/INFO]: Random number2: 36
+[17:37:47] [Server thread/INFO]: Random number: 6
+[17:37:47] [Server thread/INFO]: Random number2: 42
+[17:37:47] [Server thread/INFO]: Random number: 0
+[17:37:47] [Server thread/INFO]: Random number: 3
+[17:37:47] [Server thread/INFO]: Random number: 3
+[17:37:48] [Server thread/INFO]: Random number: 6
+[17:37:48] [Server thread/INFO]: Random number2: 30
+[17:37:48] [Server thread/INFO]: Random number: 4
+[17:37:48] [Server thread/INFO]: Random number: 1
+[17:37:49] [Server thread/INFO]: Random number: 2
+[17:37:49] [Server thread/INFO]: Random number: 6
+[17:37:49] [Server thread/INFO]: Random number2: 26
+[17:37:50] [Server thread/INFO]: Random number: 4
+[17:37:50] [Server thread/INFO]: Random number: 6
+[17:37:50] [Server thread/INFO]: Random number2: 13
+[17:37:50] [Server thread/INFO]: Random number: 6
+[17:37:50] [Server thread/INFO]: Random number2: 41
+[17:37:50] [Server thread/INFO]: Random number: 0
+[17:37:50] [Server thread/INFO]: Random number: 6
+[17:37:50] [Server thread/INFO]: Random number2: 40
+[17:37:50] [Server thread/INFO]: Random number: 7
+[17:37:50] [Server thread/INFO]: Random number: 7
+[17:37:51] [Server thread/INFO]: Random number: 0
+[17:37:51] [Server thread/INFO]: Random number: 7
+[17:37:51] [Server thread/INFO]: Random number: 6
+[17:37:51] [Server thread/INFO]: Random number2: 2
+[17:37:51] [Server thread/INFO]: Random number: 1
+[17:37:52] [Server thread/INFO]: Random number: 0
+[17:37:52] [Server thread/INFO]: Random number: 2
+[17:37:52] [Server thread/WARN]: UUID of added entity already exists: Horse['马'/26816, l='ServerLevel[New World]', x=231.71, y=63.00, z=549.91]
+[17:37:52] [Server thread/WARN]: UUID of added entity already exists: Horse['马'/26816, l='ServerLevel[New World]', x=231.71, y=63.00, z=549.91]
+[17:37:52] [Server thread/WARN]: UUID of added entity already exists: Horse['马'/26816, l='ServerLevel[New World]', x=231.71, y=63.00, z=549.91]
+[17:37:52] [Server thread/WARN]: UUID of added entity already exists: Horse['马'/26816, l='ServerLevel[New World]', x=231.71, y=63.00, z=549.91]
+[17:37:52] [Server thread/WARN]: UUID of added entity already exists: Horse['马'/26816, l='ServerLevel[New World]', x=231.71, y=63.00, z=549.91]
+[17:37:52] [Server thread/WARN]: UUID of added entity already exists: Horse['马'/26816, l='ServerLevel[New World]', x=231.71, y=63.00, z=549.91]
+[17:37:52] [Server thread/INFO]: Random number: 6
+[17:37:52] [Server thread/INFO]: Random number2: 16
+[17:37:53] [Server thread/INFO]: Random number: 7
+[17:37:53] [Server thread/INFO]: Random number: 2
+[17:37:53] [Server thread/WARN]: UUID of added entity already exists: Ravager['劫掠兽'/26843, l='ServerLevel[New World]', x=234.69, y=51.00, z=577.67]
+[17:37:53] [Server thread/WARN]: UUID of added entity already exists: Ravager['劫掠兽'/26843, l='ServerLevel[New World]', x=234.69, y=51.00, z=577.67]
+[17:37:53] [Server thread/WARN]: UUID of added entity already exists: Ravager['劫掠兽'/26843, l='ServerLevel[New World]', x=234.69, y=51.00, z=577.67]
+[17:37:53] [Server thread/WARN]: UUID of added entity already exists: Ravager['劫掠兽'/26843, l='ServerLevel[New World]', x=234.69, y=51.00, z=577.67]
+[17:37:53] [Server thread/INFO]: Random number: 6
+[17:37:53] [Server thread/INFO]: Random number2: 34
+[17:37:53] [Server thread/INFO]: Random number: 3
+[17:37:53] [Server thread/INFO]: Random number: 7
+[17:37:53] [Server thread/INFO]: Random number: 6
+[17:37:53] [Server thread/INFO]: Random number2: 25
+[17:37:53] [Server thread/INFO]: Random number: 6
+[17:37:53] [Server thread/INFO]: Random number2: 3
+[17:37:53] [Server thread/INFO]: Random number: 4
+[17:37:54] [Server thread/INFO]: Random number: 5
+[17:37:54] [Server thread/INFO]: Random number: 3
+[17:37:54] [Server thread/INFO]: Random number: 0
+[17:37:54] [Server thread/INFO]: Random number: 7
+[17:37:55] [Server thread/INFO]: Random number: 6
+[17:37:55] [Server thread/INFO]: Random number2: 3
+[17:37:55] [Server thread/INFO]: Random number: 7
+[17:37:55] [Server thread/INFO]: Random number: 0
+[17:37:55] [Server thread/INFO]: Random number: 3
+[17:37:56] [Server thread/INFO]: Random number: 5
+[17:37:57] [Server thread/INFO]: Random number: 3
+[17:37:57] [Server thread/INFO]: Random number: 0
+[17:37:58] [Server thread/INFO]: Random number: 4
+[17:37:58] [Server thread/INFO]: Random number: 4
+[17:37:58] [Server thread/INFO]: Random number: 4
+[17:37:58] [Server thread/INFO]: Random number: 7
+[17:37:58] [Server thread/INFO]: Random number: 1
+[17:37:58] [Server thread/INFO]: Random number: 0
+[17:37:58] [Server thread/INFO]: Random number: 2
+[17:37:58] [Server thread/INFO]: Random number: 7
+[17:37:59] [Server thread/INFO]: Random number: 5
+[17:38:01] [Server thread/INFO]: Random number: 3
+[17:38:01] [Server thread/INFO]: Random number: 6
+[17:38:01] [Server thread/INFO]: Random number2: 30
+[17:38:01] [Server thread/INFO]: Random number: 6
+[17:38:01] [Server thread/INFO]: Random number2: 38
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/INFO]: Random number: 5
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/INFO]: Random number: 4
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ElderGuardian['远古守卫者'/27398, l='ServerLevel[New World]', x=115.67, y=63.00, z=546.54]
+[17:38:01] [Server thread/INFO]: Random number: 7
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/INFO]: Random number: 0
+[17:38:01] [Server thread/INFO]: Random number: 5
+[17:38:01] [Server thread/INFO]: Random number: 0
+[17:38:01] [Server thread/INFO]: Random number: 1
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: ItemEntity['空气'/27494, l='ServerLevel[New World]', x=138.09, y=48.00, z=572.74]
+[17:38:01] [Server thread/INFO]: Random number: 2
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/27495, l='ServerLevel[New World]', x=116.41, y=63.00, z=543.40]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/27495, l='ServerLevel[New World]', x=116.41, y=63.00, z=543.40]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/27495, l='ServerLevel[New World]', x=116.41, y=63.00, z=543.40]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/27495, l='ServerLevel[New World]', x=116.41, y=63.00, z=543.40]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/27495, l='ServerLevel[New World]', x=116.41, y=63.00, z=543.40]
+[17:38:01] [Server thread/WARN]: UUID of added entity already exists: Stray['流浪者'/27495, l='ServerLevel[New World]', x=116.41, y=63.00, z=543.40]
+[17:38:01] [Server thread/INFO]: Random number: 6
+[17:38:01] [Server thread/INFO]: Random number2: 29
+[17:38:01] [Server thread/INFO]: Random number: 0
+[17:38:01] [Server thread/INFO]: Random number: 6
+[17:38:01] [Server thread/INFO]: Random number2: 36
+[17:38:01] [Server thread/INFO]: Random number: 5
+[17:38:02] [Server thread/INFO]: Random number: 2
+[17:38:02] [Server thread/INFO]: Random number: 3
+[17:38:02] [Server thread/INFO]: Random number: 6
+[17:38:02] [Server thread/INFO]: Random number2: 16
+[17:38:02] [Server thread/INFO]: Random number: 7
+[17:38:02] [Server thread/INFO]: Random number: 7
+[17:38:02] [Server thread/INFO]: Random number: 6
+[17:38:02] [Server thread/INFO]: Random number2: 11
+[17:38:02] [Server thread/INFO]: Random number: 1
+[17:38:02] [Server thread/INFO]: Random number: 7
+[17:38:02] [Server thread/INFO]: Random number: 2
+[17:38:02] [Server thread/INFO]: Random number: 5
+[17:38:02] [Server thread/INFO]: Random number: 0
+[17:38:02] [Server thread/INFO]: Random number: 6
+[17:38:02] [Server thread/INFO]: Random number2: 19
+[17:38:02] [Server thread/INFO]: Random number: 2
+[17:38:02] [Server thread/INFO]: Random number: 1
+[17:38:02] [Server thread/INFO]: Random number: 7
+[17:38:03] [Server thread/INFO]: Random number: 4
+[17:38:03] [Server thread/INFO]: Random number: 3
+[17:38:07] [Server thread/INFO]: Random number: 5
+[17:38:07] [Server thread/INFO]: Random number: 2
+[17:38:08] [Server thread/INFO]: Random number: 7
+[17:38:08] [Server thread/INFO]: Random number: 2
+[17:38:08] [Server thread/WARN]: UUID of added entity already exists: Boat['船'/28190, l='ServerLevel[New World]', x=123.00, y=115.99, z=510.56]
+[17:38:10] [Server thread/INFO]: Random number: 4
+[17:38:10] [Server thread/INFO]: Random number: 1
+[17:38:10] [Server thread/INFO]: Random number: 7
+[17:38:10] [Server thread/INFO]: Random number: 2
+[17:38:11] [Server thread/INFO]: Random number: 7
+[17:38:11] [Server thread/INFO]: Random number: 0
+[17:38:11] [Server thread/INFO]: Random number: 5
+[17:38:12] [Server thread/INFO]: Random number: 6
+[17:38:12] [Server thread/INFO]: Random number2: 33
+[17:38:12] [Server thread/INFO]: Random number: 6
+[17:38:12] [Server thread/INFO]: Random number2: 2
+[17:38:12] [Server thread/INFO]: Random number: 1
+[17:38:12] [Server thread/INFO]: Random number: 7
+[17:38:12] [Server thread/INFO]: Random number: 5
+[17:38:12] [Server thread/INFO]: Random number: 2
+[17:38:13] [Server thread/INFO]: Random number: 5
+[17:38:13] [Server thread/INFO]: Random number: 0
+[17:38:13] [Server thread/INFO]: Random number: 4
+[17:38:13] [Server thread/INFO]: Random number: 2
+[17:38:13] [Server thread/INFO]: Random number: 0
+[17:38:13] [Server thread/INFO]: Random number: 3
+[17:38:13] [Server thread/INFO]: Random number: 4
+[17:38:14] [Server thread/INFO]: Random number: 4
+[17:38:15] [Server thread/INFO]: Random number: 6
+[17:38:15] [Server thread/INFO]: Random number2: 13
+[17:38:15] [Server thread/INFO]: Random number: 7
+[17:38:15] [Server thread/INFO]: Random number: 1
+[17:38:16] [Server thread/INFO]: Random number: 5
+[17:38:16] [Server thread/INFO]: Random number: 3
+[17:38:20] [Server thread/INFO]: Random number: 3
+[17:38:20] [Server thread/INFO]: Random number: 3
+[17:38:20] [Server thread/INFO]: Random number: 6
+[17:38:20] [Server thread/INFO]: Random number2: 23
+[17:38:20] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:872) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:808) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:86) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:668) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:258) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:322) ~[?:?]
+	at net.minecraft.world.entity.projectile.ThrownEgg.onHit(ThrownEgg.java:962) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.world.entity.projectile.ThrowableProjectile.tick(ThrowableProjectile.java:62) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:649) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:487) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:316) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:54) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:296) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:868) ~[forge-1.18.1-39.1.0_mapped_official_1.18.1-recomp.jar%2377!/:?]
+	... 5 more
